@@ -12,7 +12,7 @@ import { FavoritesModule } from './favorites/favorites.module';
       throttlers: [
         {
           ttl: 60000,
-          limit: 10,
+          limit: 100,
         },
       ],
     }),
